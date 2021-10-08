@@ -1,0 +1,85 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.labelFormat": "short",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontFamily": "JetBrains Mono, Fira Code",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "editor.renderLineHighlight": "gutter",
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "editor.parameterHints.enabled": false,
+
+    "diffEditor.ignoreTrimWhitespace": true,
+    "code-runner.clearPreviousOutput": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll": true
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }, 
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[json]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "material-icon-theme.folders.associations": {
+        "infra": "app",
+        "entities": "class",
+        "domain": "class",
+        "schemas": "class",
+        "typeorm": "database",
+        "repositories": "mappings",
+        "http": "container",
+        "migrations": "tools",
+        "modules": "components",
+        "implementations": "core",
+        "dtos": "typescript",
+        "fakes": "mock",
+        "websockets": "pipe",
+        "protos": "pipe",
+        "grpc": "pipe",
+        "providers": "include",
+        "subscribers": "messages",
+        "useCases": "controller",
+        "kafka": "scripts",
+        "mappers": "meta",
+        "_shared": "shared",
+        "eslint-config": "tools",
+        "kube": "kubernetes"
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.compactFolders": false,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "database",
+            "database": "db_softvendas",
+            "username": "postgres"
+        }
+    ],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "workbench.colorTheme": "Dracula Pro",
+}
