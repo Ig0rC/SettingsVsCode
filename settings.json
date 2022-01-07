@@ -67,18 +67,6 @@
     },
     "security.workspace.trust.untrustedFiles": "open",
     "explorer.compactFolders": false,
-    "sqltools.connections": [
-        {
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "askForPassword": true,
-            "driver": "PostgreSQL",
-            "name": "database",
-            "database": "db_softvendas",
-            "username": "postgres"
-        }
-    ],
     "liveServer.settings.donotShowInfoMsg": true,
     "typescript.inlayHints.enumMemberValues.enabled": true,
     "workbench.colorTheme": "Dracula Pro",
